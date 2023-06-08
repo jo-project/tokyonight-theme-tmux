@@ -5,7 +5,7 @@
 tmux set-option -g mode-style "fg=#7aa2f7,bg=#3b4261"
 
 tmux set-option -g message-style "fg=#7aa2f7,bg=#3b4261"
-tmux set-option set -g message-command-style "fg=#7aa2f7,bg=#3b4261"
+tmux set-option -g message-command-style "fg=#7aa2f7,bg=#3b4261"
 
 tmux set-option -g pane-border-style "fg=#3b4261"
 tmux set-option -g pane-active-border-style "fg=#7aa2f7"
@@ -32,4 +32,4 @@ tmux set-window-option -g window-status-current-format "#[fg=#16161e,bg=#3b4261,
 
 # tmux-plugins/tmux-prefix-highlight support
 tmux set-option -g @prefix_highlight_output_prefix "#[fg=#e0af68]#[bg=#16161e]#[fg=#16161e]#[bg=#e0af68]"
-tmux set-option set -g @prefix_highlight_output_suffix ""
+tmux set-option -g @prefix_highlight_output_suffix ""
